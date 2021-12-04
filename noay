@@ -94,14 +94,14 @@ end
 				print(hit.Parent.Name)
 				debounce = true
 				delay(0,function()debounce = false end)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 11.5, 0.8, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*-1+Vector3.new(0,0,0), 0.05, hitsounds[1], 1, 2)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 11.5, 0.8, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*-1+Vector3.new(0,0,0), 0.05, hitsounds[1], 1, 2)
 			end
 		elseif (hit.Parent.Parent:FindFirstChild("Humanoid"))and hit.Parent.Name ~= game.Players.LocalPlayer.Name then
 			if debounce == false then
 				debounce = true
 				print(hit.Parent.Parent.Name)
 				delay(0,function()debounce = false end)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 11.5, 0.8, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*-1+Vector3.new(0,0,0), 0.05, hitsounds[1], 1, 2)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 11.5, 0.8, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*-1+Vector3.new(0,0,0), 0.05, hitsounds[1], 1, 2)
 			end
 		end
 	end)
@@ -111,15 +111,15 @@ end
 				print(hit.Parent.Name)
 				debounce = true
 				delay(0,function()debounce = false end)
-				--game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 12.8, 0.8, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*-1+Vector3.new(0,0,0), 0.05, hitsounds[1], 1, 2)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 12.8, 0.8, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*-1+Vector3.new(0,0,0), 0.05, hitsounds[1], 1, 2)
+				--game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 12.8, 0.8, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*-1+Vector3.new(0,0,0), 0.05, hitsounds[1], 1, 2)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 12.8, 0.8, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*-1+Vector3.new(0,0,0), 0.05, hitsounds[1], 1, 2)
 			end
 		elseif (hit.Parent.Parent:FindFirstChild("Humanoid"))and hit.Parent.Name ~= game.Players.LocalPlayer.Name then
 			if debounce == false then
 				debounce = true
 				print(hit.Parent.Parent.Name)
 				delay(0,function()debounce = false end)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 12.8, 0.8, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*-1+Vector3.new(0,0,0), 0.05, hitsounds[1], 1, 2)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 12.8, 0.8, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*-1+Vector3.new(0,0,0), 0.05, hitsounds[1], 1, 2)
 			end
 		end
 	end)
@@ -181,7 +181,7 @@ end
 				print(hit.Parent.Name)
 				delay(0.001,function()debounce = false end)
 				game:GetService("ReplicatedStorage").Knock:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 95, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*300+Vector3.new(0,50,0), 0.05, hitsounds[2], 1, 10)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 95, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*300+Vector3.new(0,50,0), 0.05, hitsounds[2], 1, 10)
 				hitbox1:Destroy()
 				
 			end
@@ -191,7 +191,7 @@ end
 				print(hit.Parent.Parent.Name)
 				delay(0.001,function()debounce = false end)
 				game:GetService("ReplicatedStorage").Knock:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 95, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*300+Vector3.new(0,50,0), 0.05, hitsounds[2], 1, 10)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 95, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*300+Vector3.new(0,50,0), 0.05, hitsounds[2], 1, 10)
 				hitbox1:Destroy()
 			end
 		end
@@ -234,7 +234,7 @@ end
 				print(hit.Parent.Name)
 				delay(0.001,function()debounce = false end)
 				--:GetService("ReplicatedStorage").Knock:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 12, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*10+Vector3.new(0,0,0), 0.01, hitsounds[1], 1, 1)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 12, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*10+Vector3.new(0,0,0), 0.01, hitsounds[1], 1, 1)
 				hitbox1:Destroy()
 				
 			end
@@ -244,7 +244,7 @@ end
 				print(hit.Parent.Parent.Name)
 				delay(0.001,function()debounce = false end)
 				--game:GetService("ReplicatedStorage").Knock:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
-				game:GetService("ReplicatedStorage").Damage31:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 12, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*10+Vector3.new(0,0,0), 0.01, hitsounds[1], 1, 1)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 12, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*10+Vector3.new(0,0,0), 0.01, hitsounds[1], 1, 1)
 				hitbox1:Destroy()
 			end
 		end
@@ -294,10 +294,10 @@ end
 				while grabbed do
 					wait(0.01)
 					if grabbed then
-						game:GetService("ReplicatedStorage").Damage:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 0.01, 0.1, ((game.Players.LocalPlayer.Character.HumanoidRootPart.Position+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*5)-hit.Parent.HumanoidRootPart.Position)*1, "rbxassetid://241837157", 0, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 0)
-						--game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 0.01, 0.1, ((game.Players.LocalPlayer.Character.HumanoidRootPart.Position+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*10)-hit.Parent.HumanoidRootPart.Position)*1.5, 0, hitsounds[1], 1, 0)
+						game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 0.01, 0.1, ((game.Players.LocalPlayer.Character.HumanoidRootPart.Position+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*5)-hit.Parent.HumanoidRootPart.Position)*1, "rbxassetid://241837157", 0, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 0)
+						--game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 0.01, 0.1, ((game.Players.LocalPlayer.Character.HumanoidRootPart.Position+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*10)-hit.Parent.HumanoidRootPart.Position)*1.5, 0, hitsounds[1], 1, 0)
 					else
-						--game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 20, 0.05, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*50, 0, hitsounds[1], 1, 0)
+						--game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 20, 0.05, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*50, 0, hitsounds[1], 1, 0)
 						break
 					end
 				end
@@ -347,7 +347,7 @@ end
 				print(hit.Parent.Name)
 				delay(0.001,function()debounce = false end)
 				game:GetService("ReplicatedStorage").Knock:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 65, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*280+Vector3.new(0,250,0), 0.05, "rbxassetid://314390675", 1, 2)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 65, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*280+Vector3.new(0,250,0), 0.05, "rbxassetid://314390675", 1, 2)
 				hitbox1:Destroy()
 				
 			end
@@ -357,7 +357,7 @@ end
 				print(hit.Parent.Parent.Name)
 				delay(0.001,function()debounce = false end)
 				game:GetService("ReplicatedStorage").Knock:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 65, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*125+Vector3.new(0,150,0), 0.05, "rbxassetid://314390675", 1, 2)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 65, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*125+Vector3.new(0,150,0), 0.05, "rbxassetid://314390675", 1, 2)
 				hitbox1:Destroy()
 			end
 		end
@@ -400,7 +400,7 @@ end
 				print(hit.Parent.Name)
 				delay(0.001,function()debounce = false end)
 				--game:GetService("ReplicatedStorage").Knock:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 20, 29, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*0.01+Vector3.new(0,0,0), 0.01, "rbxassetid://268249319", 1, 6)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 20, 29, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*0.01+Vector3.new(0,0,0), 0.01, "rbxassetid://268249319", 1, 6)
 				hitbox1:Destroy()
 				
 			end
@@ -410,7 +410,7 @@ end
 				print(hit.Parent.Parent.Name)
 				delay(0.001,function()debounce = false end)
 				--game:GetService("ReplicatedStorage").Knock:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 20, 29, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*0.01+Vector3.new(0,0,0), 0.01, "rbxassetid://268249319", 1, 6)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 20, 29, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*0.01+Vector3.new(0,0,0), 0.01, "rbxassetid://268249319", 1, 6)
 				hitbox1:Destroy()
 			end
 		end
@@ -454,7 +454,7 @@ end
 				print(hit.Parent.Name)
 				delay(0.001,function()debounce = false end)
 				game:GetService("ReplicatedStorage").Knock:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 25, 10, Vector3.new(0,-200,0), 0.2, hitsounds[4], 1, 50)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 25, 10, Vector3.new(0,-200,0), 0.2, hitsounds[4], 1, 50)
 				hitbox1:Destroy()
 				
 			end
@@ -464,7 +464,7 @@ end
 				print(hit.Parent.Parent.Name)
 				delay(0.001,function()debounce = false end)
 				game:GetService("ReplicatedStorage").Knock:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 25, 10, Vector3.new(0,-200,0), 0.2, hitsounds[4], 1, 50)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 25, 10, Vector3.new(0,-200,0), 0.2, hitsounds[4], 1, 50)
 				hitbox1:Destroy()
 			end
 		end
@@ -505,7 +505,7 @@ end
 				print(hit.Parent.Name)
 				delay(0.4,function()debounce = false end)
 				game:GetService("ReplicatedStorage").Knock:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 25, 0.1, Vector3.new(0,150,0), 0.2, hitsounds[5], 1, 50)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 25, 0.1, Vector3.new(0,150,0), 0.2, hitsounds[5], 1, 50)
 			end
 		elseif (hit.Parent.Parent:FindFirstChild("Humanoid"))and hit.Parent.Parent.Name ~= game.Players.LocalPlayer.Name and not hit.Parent:IsA("Accessory") then
 			if debounce == false then
@@ -513,7 +513,7 @@ end
 				print(hit.Parent.Parent.Name)
 				delay(0.4,function()debounce = false end)
 				game:GetService("ReplicatedStorage").Knock:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 25, 0.1, Vector3.new(0,150,0), 0.2, hitsounds[5], 1, 50)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 25, 0.1, Vector3.new(0,150,0), 0.2, hitsounds[5], 1, 50)
 			end
 		end
 	end)
@@ -568,7 +568,7 @@ end
 				print(hit.Parent.Name)
 				delay(1,function()debounce = false end)
 				game:GetService("ReplicatedStorage").Knock:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 75, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*-200, 0.2, hitsounds[5], 1, 50)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 75, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*-200, 0.2, hitsounds[5], 1, 50)
 			end
 		elseif (hit.Parent.Parent:FindFirstChild("Humanoid"))and hit.Parent.Parent.Name ~= game.Players.LocalPlayer.Name and not hit.Parent:IsA("Accessory") then
 			if debounce == false then
@@ -576,7 +576,7 @@ end
 				print(hit.Parent.Parent.Name)
 				delay(1,function()debounce = false end)
 				game:GetService("ReplicatedStorage").Knock:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 75, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*-200, 0.2, hitsounds[5], 1, 50)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Parent.Parent.Humanoid, hit.Parent.Parent.HumanoidRootPart.CFrame, 75, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*-200, 0.2, hitsounds[5], 1, 50)
 			end
 		end
 	end)
@@ -611,7 +611,7 @@ end
 		if hit.Character:FindFirstChild("Humanoid") and hit.Character:FindFirstChild("HumanoidRootPart") and hit.Character.Name ~= game.Players.LocalPlayer.Name then
 				print(hit.Character.Name)
 				
-				game:GetService("ReplicatedStorage").Damage30:FireServer(hit.Character:FindFirstChild("Humanoid"), hit.Character.HumanoidRootPart.CFrame, 95, 0.1, Vector3.new(0,500,0), 5, "rbxassetid://1839997944", 1, 100)
+				game:GetService("ReplicatedStorage").Dana2:FireServer(hit.Character:FindFirstChild("Humanoid"), hit.Character.HumanoidRootPart.CFrame, 95, 0.1, Vector3.new(0,500,0), 5, "rbxassetid://1839997944", 1, 100)
 			
 		end
 	end
@@ -619,7 +619,7 @@ end
 
 _G.nou = function()
 	nou = not nou
-	--game:GetService("ReplicatedStorage").SpecialDamage:FireServer(game.Players.LocalPlayer.Character.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
+	--game:GetService("ReplicatedStorage").Dana2:FireServer(game.Players.LocalPlayer.Character.Humanoid, hit.Parent.HumanoidRootPart.CFrame, 1, 1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*1+Vector3.new(0,1,0), "rbxassetid://241837157", 1, Color3.new(1, 0, 0), "rbxassetid://4137216950", 0.8, 100)
 				if nou == true then
 		game:GetService("ReplicatedStorage").Heal:FireServer(game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame, game.Players.LocalPlayer.Character.Humanoid.MaxHealth+game.Players.LocalPlayer.Character.Humanoid.Health, 0.1, game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.LookVector*100+Vector3.new(0,20,0), "rbxassetid://241837157", 1, Color3.new(0, 255, 0), "rbxassetid://4137216950", 1, 0)
 		game:GetService("ReplicatedStorage").RTZ:FireServer(
